@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="surface.cpp" />
+    <ClCompile Include="template.cpp" />
+    <ClCompile Include="threads.cpp" />
+    <ClCompile Include="Level1.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelParent.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelHandler.cpp" />
+    <ClCompile Include="EnemyCircle.cpp">
+      <Filter>Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFighter.cpp">
+      <Filter>Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyParent.cpp">
+      <Filter>Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyWorm.cpp">
+      <Filter>Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletParent.cpp">
+      <Filter>Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyTurret.cpp">
+      <Filter>Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyGroundBot.cpp">
+      <Filter>Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyCircleBom.cpp">
+      <Filter>Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeEnemy.cpp">
+      <Filter>Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="E_SmallBullet.cpp">
+      <Filter>Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BigBullet.cpp">
+      <Filter>Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallBullet.cpp">
+      <Filter>Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUp.cpp" />
+    <ClCompile Include="Star.cpp" />
+    <ClCompile Include="StarField.cpp" />
+    <ClCompile Include="Gui.cpp" />
+    <ClCompile Include="JumpEnemy.cpp">
+      <Filter>Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBoss.cpp">
+      <Filter>Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="E_BigBullet.cpp">
+      <Filter>Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BosTail.cpp">
+      <Filter>Enemys</Filter>
+    </ClCompile>
+    <ClCompile Include="E_Boss.cpp">
+      <Filter>Enemys\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="E_Boss_Bullet.cpp">
+      <Filter>Enemys\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="E_Boss_Explosion.cpp">
+      <Filter>Enemys\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="E_Boss_Tail_Piece.cpp">
+      <Filter>Enemys\Boss</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h" />
+    <ClInclude Include="surface.h" />
+    <ClInclude Include="template.h" />
+    <ClInclude Include="threads.h" />
+    <ClInclude Include="Level1.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelParent.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelHandler.h" />
+    <ClInclude Include="EnemyCircle.h">
+      <Filter>Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyFighter.h">
+      <Filter>Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyParent.h">
+      <Filter>Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyWorm.h">
+      <Filter>Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletParent.h">
+      <Filter>Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyTurret.h">
+      <Filter>Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyGroundBot.h">
+      <Filter>Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyCircleBom.h">
+      <Filter>Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargeEnemy.h">
+      <Filter>Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="E_SmallBullet.h">
+      <Filter>Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallBullet.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="BigBullet.h">
+      <Filter>Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUp.h" />
+    <ClInclude Include="Star.h" />
+    <ClInclude Include="StarField.h" />
+    <ClInclude Include="Gui.h" />
+    <ClInclude Include="JumpEnemy.h">
+      <Filter>Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBoss.h">
+      <Filter>Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="E_BigBullet.h">
+      <Filter>Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BosTail.h">
+      <Filter>Enemys</Filter>
+    </ClInclude>
+    <ClInclude Include="E_Boss.h">
+      <Filter>Enemys\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="E_Boss_Bullet.h">
+      <Filter>Enemys\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="E_Boss_Explosion.h">
+      <Filter>Enemys\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="E_Boss_Tail_Piece.h">
+      <Filter>Enemys\Boss</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="_readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Levels">
+      <UniqueIdentifier>{1675a6c7-d2d3-4d51-b5f1-b670946abbc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tiles">
+      <UniqueIdentifier>{8e101d28-2eff-430c-9ab1-8979332310e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemys">
+      <UniqueIdentifier>{e974fa5d-f3f5-408e-a296-b9e2c53c8075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{a3d595a3-b9cd-40d2-91a4-688e99bd56f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bullet">
+      <UniqueIdentifier>{dade9ec3-fd3c-4ef1-9526-9acbbe2d503e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemys\Boss">
+      <UniqueIdentifier>{d683e7f3-1609-4ad7-8214-1309b9c172ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
